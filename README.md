@@ -1,2 +1,2 @@
 # Homework
-Ivan Hvězda
+Ivan Hvězda- skola kodu
