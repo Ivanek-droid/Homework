@@ -1,0 +1,276 @@
+@font-face {
+    font-family: 'HelveticaBold';
+    src: url('HelveticaBold.eot');
+    src: local('0'), url('HelveticaBold.woff') format('woff'), 
+        url('HelveticaBold.ttf') format('truetype'), 
+        url('HelveticaBold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+.navbar{
+font-weight: 700;
+max-width: 900px;
+width: 96%;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+justify-content: space-between;
+padding-top: 50px;
+color: gray;
+}
+.container-nav span{
+padding: 5px;
+}
+main{
+    font-family:Arial, Helvetica, sans-serif;
+    max-width: 900px;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+}
+.upoutavka{
+display: flex;
+}
+#all{
+    padding-top: 20px;
+    letter-spacing: .3px;
+    word-spacing: 1px;
+    color: rgb(61, 58, 58);
+    }
+.podnadpis-upoutavka{
+font-size: small;
+}
+.nadpis-upoutavka{
+    font-family:'HelveticaBold';
+font-size: 30px;
+color: purple;
+padding-top: 20px;
+font-weight: 700;
+}
+.text-upoutavka{
+font-size: small;
+}
+.cenovka{
+font-size: small;
+}
+.cena{
+font-size: 20px;
+font-weight: 700;
+}
+main a{
+margin-top: 10px;
+display: inline-block;
+}
+.odkaz1{
+text-decoration: none;
+background-color: green;
+color: white;
+border-radius: 5px;
+padding: 15px;
+margin-top: 10px;
+display: inline-block;
+}
+.odkaz2{
+margin-left: 25px;
+text-decoration: none;
+background-color: purple;
+color: white;
+border-radius: 5px;
+padding: 15px;
+margin-top: 10px;
+display: inline-block;
+}
+.container-odkazy{
+margin-top:20px ;
+}
+.foto-upoutavka{
+padding-bottom: 100px;
+min-width: 250px;
+width: 95%;
+min-height: 0;
+}
+.all{
+width: 50%;
+}
+.podnadpis-info{
+color: black;
+font-size: small;
+margin-bottom: 20px;
+}
+.nadpis-info{
+padding-top: 25px;
+text-decoration: none;
+color: purple;
+letter-spacing: 0.2px;
+word-spacing: 1px;
+font-weight: 700;
+font-size: x-large;
+margin-bottom: 40px;
+}
+.container-info{
+    margin-bottom: 100px;
+display: flex;
+height: 250px;
+line-height: 15px;
+justify-content: space-between;
+width:900px ;
+}
+.container-info div{
+font-size: small;
+width: 150px;
+text-align: center;
+}
+.container-info img{
+margin-bottom: 30px;
+}
+.text-fotky{
+margin-top:50px ; 
+}
+.podnadpis-fotky{
+padding-top: 100px;
+}
+.nadpis-fotky{
+color: purple;
+padding-top: 20px;
+letter-spacing: 0.2px;
+word-spacing: 1px;
+font-weight: 700;
+font-size: x-large;
+padding-bottom: 30px;
+}
+.fotografie{
+background-color: rgba(20, 20, 20,);
+}
+.fotky-container{
+display: flex;
+padding-top: 40px;
+width: 900px;
+height: 480px;
+margin-bottom: 80px;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+.fotky-container img{
+width: 33%;
+height: 45%;
+padding:0 8px;
+object-fit: cover;
+}
+
+
+footer{
+background-color: #32325f;
+}
+.footer-container{
+font-weight: 600;
+color: white;
+display: flex;
+padding: 50px 0 100px 0;
+margin:0 auto;
+justify-content: space-between;
+text-align: center;
+font-size: 15px;
+}
+.kontakty-footer{
+    width: 290px;
+
+
+}
+.informace-footer{
+width: 290px;
+
+
+}
+.socialniSite-footer{
+    width: 290px;
+
+
+}
+.container-all{
+    max-width: 900px;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+/*---------------------------------Responzivita----------------------------*/
+
+
+
+@media (max-width:950px){
+.upoutavka{
+flex-wrap: wrap;
+flex-direction: row;
+margin: 0 auto;
+justify-content: center;
+text-align: center;
+}
+.foto-upoutavka{
+width: 500px;
+margin: 0 auto;
+text-align: center;
+margin-top:10px;
+justify-content: center;
+}
+.odkaz2{
+margin-top: 20px;
+margin-left: 0;
+}
+main{
+margin: 0 auto;
+text-align: center;
+}
+.fotky-container img{
+width: 205px;
+height: 105px;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+.container-info div{
+width: 180px;
+margin: 0 auto;
+text-align: center;
+}
+.fotky-container{
+width: 420px;
+margin: 0 auto;
+text-align: center;
+height: 420px;
+margin-bottom: 60px;
+}
+.footer-container div{
+font-size: 10px;
+width: 250px;
+}
+.footer-container div p{
+height: 20px;
+}
+.footer-container{
+width: 420px;
+}
+.container-info{
+display: flex;
+width: 420px;
+height: 1000px;
+flex-wrap: wrap;
+justify-content: space-evenly;
+padding: 0;
+margin: 0 auto;
+place-items: center;
+height: 600px;
+}
+.container-info div{
+height: 100px;
+}
+}
+
+
+
+
