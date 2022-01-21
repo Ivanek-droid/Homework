@@ -1,0 +1,127 @@
+body{
+    font-family: sans-serif;
+}
+img{
+max-width: 100%;
+}
+.header{
+    padding: 20px 0;
+}
+.container{
+max-width: 1170px;
+width: 96%;
+margin: auto;
+}
+.header-block{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.header__info{
+display: flex;
+text-align: right;
+}
+.header__contacts{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.header__adress{
+color: #333;
+font-style: 13px;
+font-weight: 700;
+}
+.header__phone{
+font-style: 20px;
+font-weight: 400;
+color: #333;
+text-decoration: none;
+display: block;
+}
+.button{
+background-color: #ffd200;
+color: #333;
+border: none;
+}
+.header__button{
+padding: 18px 47px;
+border-radius:10px ;
+margin-left: 30px;
+font-style: 13px;
+margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:640px){
+.header__contacts{
+    display: none;
+}
+
+}
