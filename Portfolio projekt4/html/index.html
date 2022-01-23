@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HousFix</title>
+    <title>HouseFix</title>
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/normalize.css">
 </head>
@@ -20,12 +20,72 @@
                     <span class="header__adress">Praha</span>
                     <a href="tel:420734106721" class="header__phone">420+ 734 106 721</a>
                 </div>
-                     <button class="button header__button">Zavolejte mi</button>
+                     <button class="button header__button" id="button">Zavolejte mi</button>
               </div>
           </div>
        </div>
 </header>
+<main>
+    <section class="main">
+        <div class="container">
+            <div class="main-block">
+                <div class="main-text">
+                <h1 class="main-text__title">Dekorace vnitřních <br> prostorů "na klíč" </h1>
+                <span class="main-text__subtitle">Se zárukou kvality stanovené ve smlouvě</span>
+                <ul class="main-list">
+                    <li class="main-item">
+                        <div class="main-list__image" id="hodiny">
+                            <img src="../img/img1_48.png"  alt="hodiny">
+                        </div>
+                        <div class="main-list__text">Přesně dodžujeme termíny</div>
+                    </li>
+                    <li class="main-item">
+                        <div class="main-list__image" id="calc">
+                            <img src="../img/img1_49.png" alt="kalkulacka">
+                        </div>
+                        <div class="main-list__text">Vypočítáme náklady práce a materiálů ve stejný den poptávky</div>
+                    </li>
+                    <li class="main-item" >
+                        <div class="main-list__image" id="paleta">
+                            <img src="../img/img1_50.png"  alt="paleta">
+                        </div>
+                        <div class="main-list__text">Nabídneme vám více než 100 možností provedení designu vašeho bydlení</div>
+                    </li>
+                </ul> 
+            </div>
+            <div class="main-image">
+                <img src="../img/img1_47.png" alt="Rozpoložení bytu">
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="offer">
+        <div class="container">
+           <div class="offer-block">
+            <h2 class="offer-title">
+                Bezplatně vypracujeme design-projekt pro Váš domov a realizujeme ho!
+            </h2>
+            <span class="offer-subtitle">Zanechte poptávku pro vypracování bezplatného design-projektu</span>
+            <form action="#" class="form offer__form">
+                <input type="text" class="input offer__input" placeholder="Vaše jméno">
+                    <input type="tel" class="input offer__input" placeholder="Váš telefon">
+                        <button class="button offer__button"> Získejte bezplatný design-projekt</button>
+            </form>
+                <div class="offer-block1">
+                    <span><p class="offer-subsubtitle">Náš manažer Vám zavolá v průběhu 60 sekund</p></span>
+                        <span><p class="offer-tel">nebo nám zavolejte sami <strong><a class="offer-list__tel" href="tel:+420777167699">+420 777 167 699</a></strong></p></span>
+                 </div>
+            </div>
+        </div>
+    </section>
 
+</main>
+<div class="modal" id="modal">
+    <div class="modal-dialog">
+       <button class="modal-dialog__close" id="close">&times;</button>
+       <h4 class="modal-dialog__title">Modální okno</h4>
+    </div>
+</div>
 
 
 </body>
